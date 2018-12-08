@@ -1,0 +1,36 @@
+{
+  "name": "qov",
+  "version": "1.0.0",
+  "description": "The terminal presentation tool.",
+  "main": "index.js",
+  "keywords": [
+    "cli",
+    "terminal",
+    "ascii",
+    "presentation-slides"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "lint": "standard",
+    "fix": "standard --fix",
+    "test": "ava",
+    "preview": "node demo/index.js"
+  },
+  "author": "chunqiuyiyu <chunqiuyiyu@outlook.com> (https://www.chunqiuyiyu.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "ervy": "^1.0.4",
+    "standard": "^12.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunqiuyiyu/qov.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chunqiuyiyu/qov/issues"
+  },
+  "homepage": "https://github.com/chunqiuyiyu/qov#readme"
+}
