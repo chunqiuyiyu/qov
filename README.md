@@ -1,4 +1,4 @@
-# Qov &middot; [![Build Status](https://img.shields.io/travis/chunqiuyiyu/qov/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![npm](https://img.shields.io/npm/v/qov.svg?style=flat-square)](https://www.npmjs.com/package/qov) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/chunqiuyiyu/qov/blob/master/LICENSE)
+# Qov &middot; [![Build Status](https://img.shields.io/travis/chunqiuyiyu/qov/latest.svg?style=flat-square)](https://travis-ci.org/chunqiuyiyu/qov) [![npm](https://img.shields.io/npm/v/qov.svg?style=flat-square)](https://www.npmjs.com/package/qov) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/chunqiuyiyu/qov/blob/master/LICENSE)
 
 > The terminal presentation tool.
 
