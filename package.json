@@ -23,6 +23,8 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "ervy": "^1.0.4",
+    "jsdom": "^13.0.0",
+    "prismjs": "^1.15.0",
     "standard": "^12.0.1"
   },
   "repository": {
