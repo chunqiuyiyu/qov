@@ -1,5 +1,4 @@
 const Qov = require('../index')
-const { left, pipe } = require('../lib/utils')
 const highlight = require('./highlight')
 const theme = require('./theme');
 
