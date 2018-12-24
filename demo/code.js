@@ -1,6 +1,6 @@
 const Qov = require('../index')
 const highlight = require('./highlight')
-const theme = require('./theme');
+const theme = require('./theme')
 
 const qov = new Qov({
   step: 1500
