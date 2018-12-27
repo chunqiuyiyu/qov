@@ -4,7 +4,7 @@ const Prism = require('prismjs')
 const { EOL, tagged, PAD, len } = require('../lib/utils')
 const { paint } = require('../lib/colors')
 
-module.exports = function highlight(theme) {
+module.exports = function highlight (theme) {
   return tagged((code) => {
     const html = Prism.highlight(code, Prism.languages.javascript, 'javascript')
 
