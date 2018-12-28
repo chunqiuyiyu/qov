@@ -15,15 +15,15 @@ module.exports = function highlight (theme) {
 
     const colorHead = '\x1b[47m\x1b[30m'
 
-    let parsed = root.innerHTML;
+    let parsed = root.innerHTML
     tokens.forEach((token) => {
       const type = token.className.replace('token ', '')
-      const marker = theme[type] || function(s) { return s };
+      const marker = theme[type] || function(s) { return s }
       parsed = parsed.replace(token.outerHTML, marker(token.innerHTML) + colorHead)
     });
 
     parsed = parsed.replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-    parsed = ' ' + EOL + parsed;
+    parsed = ' ' + EOL + parsed
 
     parsed = parsed.split(EOL).map(
       item => {
