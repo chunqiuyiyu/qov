@@ -18,7 +18,7 @@ module.exports = function highlight (theme) {
     let parsed = root.innerHTML
     tokens.forEach((token) => {
       const type = token.className.replace('token ', '')
-      const marker = theme[type] || function(s) { return s }
+      const marker = theme[type] || function (s) { return s }
       parsed = parsed.replace(token.outerHTML, marker(token.innerHTML) + colorHead)
     });
 
