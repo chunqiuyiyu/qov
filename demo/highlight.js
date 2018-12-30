@@ -20,7 +20,7 @@ module.exports = function highlight (theme) {
       const type = token.className.replace('token ', '')
       const marker = theme[type] || function (s) { return s }
       parsed = parsed.replace(token.outerHTML, marker(token.innerHTML) + colorHead)
-    });
+    })
 
     parsed = parsed.replace(/&lt;/g, '<').replace(/&gt;/g, '>')
     parsed = ' ' + EOL + parsed
