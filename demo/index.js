@@ -1,6 +1,6 @@
 const Qov = require('../index')
 const logo = require('./logo')
-const { center, tty, left, pipe } = require('../lib/utils')
+const { left, pipe } = require('../lib/utils')
 const {
   cyan, red, blue, white, green, black, paint, yellow, magenta
 } = require('../lib/colors')
