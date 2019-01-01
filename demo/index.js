@@ -2,11 +2,11 @@ const Qov = require('../index')
 const logo = require('./logo')
 const { left, pipe } = require('../lib/utils')
 const {
-  cyan, red, blue, white, green, black, paint, yellow, magenta
+  cyan, red, blue, white, paint, yellow, magenta
 } = require('../lib/colors')
 const {
   blod, italic, pre, faint, underline, slowBlink, rapidBlink,
-  reverse, conceal, crossedOut
+  reverse, crossedOut
 } = require('../lib/styles')
 const ervy = require('ervy')
 const { bar, pie, bullet, donut, gauge, scatter } = ervy
