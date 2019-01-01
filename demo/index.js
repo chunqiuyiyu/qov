@@ -2,7 +2,7 @@ const Qov = require('../index')
 const logo = require('./logo')
 const { left, pipe } = require('../lib/utils')
 const {
-  cyan, red, blue, white, paint, yellow, magenta
+  cyan, red, blue, white, green, paint, yellow, magenta
 } = require('../lib/colors')
 const {
   blod, italic, pre, faint, underline, slowBlink, rapidBlink,
