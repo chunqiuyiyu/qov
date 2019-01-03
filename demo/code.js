@@ -7,7 +7,7 @@ const qov = new Qov({
 })
 
 qov.section`${highlight(theme)`
-let data = "hello";
+let data = "hello"
 
 // test
 for(let i = 0; i < 10; i++) {
