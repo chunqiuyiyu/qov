@@ -2,14 +2,13 @@ const Qov = require('../index')
 const logo = require('./logo')
 const { left, pipe } = require('../lib/utils')
 const {
-  cyan, red, blue, white, green, paint, yellow, magenta
+  cyan, red, blue, green, paint, yellow, magenta
 } = require('../lib/colors')
 const {
   blod, italic, pre, faint, underline, slowBlink, rapidBlink,
   reverse, crossedOut
 } = require('../lib/styles')
 const ervy = require('ervy')
-const { bar, pie, bullet, donut, gauge, scatter } = ervy
 
 const qov = new Qov({
   step: 1500
