@@ -1,5 +1,5 @@
 const {
-  blue, white, red, magenta, green, yellow, black, cyan
+  blue, red, magenta, green, black, cyan
 } = require('../lib/colors')
 
 module.exports = {
