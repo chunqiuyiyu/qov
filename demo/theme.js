@@ -39,7 +39,6 @@ module.exports = {
   'class-name': blue,
 
   regex: cyan,
-  important: cyan,
   variable: cyan,
 
   important: red,
