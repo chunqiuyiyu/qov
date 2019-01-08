@@ -43,5 +43,5 @@ module.exports = {
 
   important: red,
   bold: red,
-  italic: red,
+  italic: red
 }
