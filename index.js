@@ -4,7 +4,7 @@ const keymap = require('./lib/keymap')
 const colors = require('./lib/colors')
 
 const {
-  tty, padMid, EOL, Mid, height, center,
+  tty, EOL, Mid, height, center,
   hideCursor, left, pipe, tagged, PAD, len
 } = require('./lib/utils')
 const { faint, conceal, fragFlag } = styles
